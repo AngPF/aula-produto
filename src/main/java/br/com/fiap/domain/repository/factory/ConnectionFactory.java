@@ -58,7 +58,7 @@ public class ConnectionFactory {
             }
 
         } catch (FileNotFoundException e) {
-            System.err.println("Não Conseguimos encontrar o arquivo de propriedades: " + e.getMessage());
+            System.err.println("Não Conseguimos encontrar o arquivo de propriedades : " + e.getMessage());
         } catch (IOException e) {
             System.err.println("Não conseguimos abrir o arquivo de propriedades: " + e.getMessage());
         } finally {
